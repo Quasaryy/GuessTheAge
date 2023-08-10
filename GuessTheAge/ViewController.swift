@@ -65,8 +65,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        personalityImage.image = UIImage(named: personality[row].image) // Changing hero image
-        UserDefaults.standard.set(row, forKey: "Hero") // Saving setting for picker view
+        if component == 0 { personalityImage.image = UIImage(named: personality[row].image) // Changing hero image
+            UserDefaults.standard.set(row, forKey: "Hero") // Saving setting for picker view
+        }
     }
     
 }
