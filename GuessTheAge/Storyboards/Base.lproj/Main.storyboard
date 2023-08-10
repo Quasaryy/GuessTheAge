@@ -31,7 +31,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gfQ-28-gvT">
-                                <rect key="frame" x="37" y="351" width="320" height="216"/>
+                                <rect key="frame" x="16" y="351" width="361" height="216"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMq-iN-8Xv">
                                 <rect key="frame" x="121" y="587.33333333333337" width="151" height="37"/>
@@ -52,14 +52,16 @@
                             <constraint firstItem="vMq-iN-8Xv" firstAttribute="top" secondItem="gfQ-28-gvT" secondAttribute="bottom" constant="20" id="2N3-Ib-Q0u"/>
                             <constraint firstItem="SXD-oL-myK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="92I-gK-zTY"/>
                             <constraint firstItem="SXD-oL-myK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MID-Ca-VaC"/>
+                            <constraint firstItem="gfQ-28-gvT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Oil-QP-Lbw"/>
                             <constraint firstItem="oRP-y6-4sr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PcR-cX-9II"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gfQ-28-gvT" secondAttribute="trailing" constant="16" id="bbG-ZB-EuQ"/>
                             <constraint firstItem="gfQ-28-gvT" firstAttribute="top" secondItem="oRP-y6-4sr" secondAttribute="bottom" constant="20" id="jkx-Jr-XEo"/>
                             <constraint firstItem="gfQ-28-gvT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lyf-MR-7xQ"/>
                             <constraint firstItem="vMq-iN-8Xv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s2l-T9-2Q0"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="personalityIamge" destination="SXD-oL-myK" id="uZp-U8-l99"/>
+                        <outlet property="personalityImage" destination="SXD-oL-myK" id="uZp-U8-l99"/>
                         <outlet property="pickerView" destination="gfQ-28-gvT" id="qM9-5W-LJw"/>
                     </connections>
                 </viewController>

@@ -16,7 +16,7 @@ extension Personality {
     static func getPersonality() -> [Personality] {
         [
             (Personality(image: "Donald", name: "Donald Duck")),
-            (Personality(image: "Mikey", name: "Mikey Mouse")),
+            (Personality(image: "Mickey", name: "Mickey Mouse")),
             (Personality(image: "Goofy", name: "Goofy D.")),
             (Personality(image: "Pluto", name: "Pluto G."))
         ]

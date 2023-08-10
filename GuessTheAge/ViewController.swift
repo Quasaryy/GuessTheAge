@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     // MARK: - IB Outlets
-    @IBOutlet weak var personalityIamge: UIImageView!
+    @IBOutlet weak var personalityImage: UIImageView!
     @IBOutlet weak var pickerView: UIPickerView!
     
     // MARK:  - Properties
@@ -57,6 +57,10 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         } else {
             return bornOfYear[row].bornAge
         }
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        personalityImage.image = UIImage(named: personality[row].image)
     }
     
 }

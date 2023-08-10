@@ -63,7 +63,7 @@
 				D205C7F12A854F6400DDB235 /* AppDelegate.swift */,
 				D205C7F32A854F6400DDB235 /* SceneDelegate.swift */,
 				D205C7F52A854F6400DDB235 /* ViewController.swift */,
-				D205C8082A85543900DDB235 /* Model */,
+				D205C8082A85543900DDB235 /* Models */,
 				D205C8052A8553F700DDB235 /* Storyboards */,
 				D205C7FA2A854F6500DDB235 /* Assets.xcassets */,
 				D205C7FF2A854F6500DDB235 /* Info.plist */,
@@ -80,13 +80,13 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		D205C8082A85543900DDB235 /* Model */ = {
+		D205C8082A85543900DDB235 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				D205C8062A85543400DDB235 /* Personality.swift */,
 				D205C8092A856E9D00DDB235 /* BornOfYear.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
