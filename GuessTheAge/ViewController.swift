@@ -13,7 +13,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBOutlet weak var personalityImage: UIImageView!
     @IBOutlet weak var pickerView: UIPickerView!
     
-    // MARK:  - Properties
+    // MARK: - Properties
     private let personality = Personality.getPersonality() // Getting model of heroes
     private let bornOfYear = BornOfYear.getBornOfYear() // Getting model of years
     private let answers = [1,3,0,1]
